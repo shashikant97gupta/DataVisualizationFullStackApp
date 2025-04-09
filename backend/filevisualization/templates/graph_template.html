@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Graph</title>
+</head>
+<body>
+    <h2>{{ graph_type }}</h2>
+    <p>Columns: {{ columns|join:", " }}</p>
+    <img src="data:image/png;base64,{{ graph_url }}" alt="Generated Graph">
+</body>
+</html>
